@@ -1,0 +1,38 @@
+Our labels are: 
+		airplane -> 0
+		automobile -> 1
+		bird -> 2
+		cat -> 3
+		deer -> 4
+		dog -> 5
+		frog -> 6
+		horse -> 7
+		ship -> 8
+		truck -> 9
+
+We compute the prediction for the first 20 images and the result is: 
+		Image: 0 had label 6 and now has 6
+		Image: 1 had label 9 and now has 8
+		Image: 2 had label 9 and now has 0
+		Image: 3 had label 4 and now has 4
+		Image: 4 had label 1 and now has 1
+		Image: 5 had label 1 and now has 1
+		Image: 6 had label 2 and now has 2
+		Image: 7 had label 7 and now has 7
+		Image: 8 had label 8 and now has 8
+		Image: 9 had label 3 and now has 3
+
+The created confusion matrix is: 
+
+0 0 0 0 0 0 0 0 0 1 
+0 2 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+
+And this confusion matrix has the accuracy: 80
